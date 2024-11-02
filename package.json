@@ -1,0 +1,33 @@
+{
+  "type": "module",
+  "name": "coinpay",
+  "version": "1.0.0",
+  "description": "Accept bitcoin payments using Node.js",
+  "main": "/dist/app.js",
+  "scripts": {
+    "dev": "npx tsc && node dist/app.js",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwnengine/coinpay.git"
+  },
+  "keywords": [
+    "Bitcoin",
+    "Payments",
+    "Cryptocurrency"
+  ],
+  "author": "Noah Cooley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pwnengine/coinpay/issues"
+  },
+  "homepage": "https://github.com/pwnengine/coinpay#readme",
+  "dependencies": {
+    "@types/node": "^22.7.9",
+    "axios": "^1.7.7",
+    "bitcore-lib": "^10.5.3",
+    "typescript": "^5.6.3"
+  }
+}
